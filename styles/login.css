@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #40f59a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #bce3e1;
+}
+
+
+
+body {
+  
+  /*background-image: url("images/hospital.jpg");*/
+  background-color:#45f7bc;
+}
+
+
+.la {
+  color: black;
+  width: 205px;
+  font-size: 35px;
+
+  position: absolute;
+  left: 550px;
+  top: 100px;
+  
+}
+
+/*images*/
+
+/* Doctor Image */
+.ai{
+  position: absolute;
+  top:340px;
+  left: 310px;
+}
+/* Doctor Image */
+.di{
+  position: absolute;
+  top:340px;
+  left: 570px;
+}
+/* Patient Image */
+.pi{
+  position: absolute;
+  top:340px;
+  left: 820px;
+}
